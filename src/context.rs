@@ -54,7 +54,7 @@ pub struct Context {
     /// The Conf object the Context was created with.
     /// It's here just so that we can see the original settings,
     /// updating it will have no effect.
-    pub(crate) conf: conf::Conf,
+    pub conf: conf::Conf,
     /// Controls whether or not the event loop should be running.
     /// Set this with `ggez::event::quit()`.
     pub continuing: bool,

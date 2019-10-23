@@ -101,6 +101,8 @@ extern crate smart_default;
 
 pub extern crate mint;
 pub extern crate nalgebra;
+pub extern crate winit;
+pub extern crate gilrs;
 
 pub mod audio;
 pub mod conf;
